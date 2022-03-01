@@ -50,3 +50,34 @@ Duplicate characters in a given string:
 o
 
 d
+
+
+
+class MainFindingTheFirstNonrepeatedCharacter{  
+
+ public static void main(String args[]){  
+
+     
+
+        String inputStr ="programming";
+
+        for(char i :inputStr.toCharArray()){
+
+        if ( inputStr.indexOf(i) == inputStr.lastIndexOf(i)) {
+
+            System.out.println("First non-repeated character is: "+i);
+
+            break;
+
+        }
+
+    }
+
+}
+
+}
+ javac -cp . Main.java
+
++ java -cp . Main
+
+First non-repeated character is: p
