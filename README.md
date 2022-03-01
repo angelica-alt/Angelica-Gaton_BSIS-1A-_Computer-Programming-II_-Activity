@@ -124,5 +124,10 @@ Does string contain only Digits? : true
 
 }
 
+ javac -cp . Main.java
+
++ java -cp . Main
+
+Return Value :AhumanoidcalledTitans
  
  
