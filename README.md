@@ -109,3 +109,20 @@ Original String : 3672815
 
 Does string contain only Digits? : true
  
+ 
+ class MainRemovingWhiteSpaceFromAString{  
+
+  public static void main(String args[]){  
+
+      String Str = new String("A humanoid called Titans");
+
+      System.out.print("Return Value :" );
+
+      System.out.println(Str.replaceAll(" ", ""));
+
+   }
+
+}
+
+ 
+ 
